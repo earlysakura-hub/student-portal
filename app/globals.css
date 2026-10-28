@@ -1,26 +1,13 @@
+/*
+File: globals.css
+Author: earlysakura-hub
+Date: October 27, 2026
+
+This file loads the Tailwind CSS framework.
+It does not receive component props.
+It provides Tailwind utilities to the application.
+The components use these utilities for their styling.
+No additional custom CSS rules are defined here.
+*/
+
 @import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
