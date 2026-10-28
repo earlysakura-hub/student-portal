@@ -1,7 +1,7 @@
 
 /*
 File: Footer.tsx
-Author: earlysakura-hub
+Author: Lin Shi
 Date: October 27, 2026
 
 This component displays the school footer.
