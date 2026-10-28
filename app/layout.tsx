@@ -1,6 +1,6 @@
 /*
 File: layout.tsx
-Author: earlysakura-hub
+Author: Lin Shi
 Date: October 27, 2026
 
 This file defines the root layout of the application.
