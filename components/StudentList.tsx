@@ -5,8 +5,6 @@
 // Normal state: render one card per student
 // key={student.id}  // stable key required by React
 
-"use client";
-
 import type { Student } from "@/data/students";
 import StudentCard from "@/components/StudentCard";
 
