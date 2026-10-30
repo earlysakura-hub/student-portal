@@ -1,0 +1,13 @@
+/*
+File: globals.css
+Author: Lin Shi
+Date: October 27, 2026
+
+This file loads the Tailwind CSS framework.
+It does not receive component props.
+It provides Tailwind utilities to the application.
+The components use these utilities for their styling.
+No additional custom CSS rules are defined here.
+*/
+
+@import "tailwindcss";
