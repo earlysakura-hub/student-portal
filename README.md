@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Student Portal — New Generation High School
 
-First, run the development server:
+## Project Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project is a student management portal created for
+CPRG 306 Web Development 2, Assignment 1.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+It is a single-page application built with Next.js,
+React, TypeScript, and Tailwind CSS.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The application allows users to view, search, add,
+and remove students, while displaying live statistics.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Live Website
 
-## Learn More
+https://student-portal-delta-lime.vercel.app/
 
-To learn more about Next.js, take a look at the following resources:
+## GitHub Repository
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+https://github.com/earlysakura-hub/student-portal
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Team Members and Responsibilities
 
-## Deploy on Vercel
+| Member | Name | Responsibilities |
+|---|---|---|
+| A | Lin Shi | Navbar, Footer, StatsPanel, layout, styling |
+| B | Xzander Perez | Student data, StudentList, StudentCard |
+| C | Adeeb Farzi | StudentPortal, SearchBox, AddStudent |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Features
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Display eight initial students
+- Show total students, Honour Roll, and graduating students
+- Search students by first or last name
+- Add students with input validation
+- Remove individual students
+- Clear the student list
+- Show or hide student details
+- Responsive layout for different screen sizes
+- Single-page navigation
+
+## Technologies
+
+- Next.js 16
+- React
+- TypeScript
+- Tailwind CSS
+- GitHub
+- Vercel
+
+## Running Locally
+
+1. Clone the repository.
+2. Open the project folder.
+3. Run `npm install`.
+4. Run `npm run dev`.
+5. Open http://localhost:3000.
+
+## Build and Code Quality
+
+| Check | Result |
+|---|---|
+| Production build | PASS |
+| TypeScript compilation | PASS |
+| ESLint | PASS |
+| Vercel deployment | PASS |
+
+## Functional Testing
+
+The results below include local tests.
+Tests marked PENDING must be completed before submission.
+
+| # | Test Case | Result |
+|---|---|---|
+| 1 | Display eight initial students | PASS |
+| 2 | Display correct Honour Roll count | PASS |
+| 3 | Display correct graduating count | PASS |
+| 4 | Show and hide student details | PASS |
+| 5 | Search for an existing student | PASS |
+| 6 | Add a valid student | PASS |
+| 7 | Remove a student | PASS |
+| 8 | Reject invalid student input | PENDING |
+| 9 | Clear all students | PENDING |
+| 10 | Test navigation and responsive layout | PENDING |
+
+## Notes
+
+Student data is stored in React state.
+Changes are not saved permanently and will reset
+when the page is refreshed.
