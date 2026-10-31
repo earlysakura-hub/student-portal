@@ -69,7 +69,6 @@ https://github.com/earlysakura-hub/student-portal
 ## Functional Testing
 
 The results below include local tests.
-Tests marked PENDING must be completed before submission.
 
 | # | Test Case | Result |
 |---|---|---|
