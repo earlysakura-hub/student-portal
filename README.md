@@ -75,11 +75,11 @@ The following tests are based on the assignment checklist.
 |---|---|---|---|
 | 1 | Open the app | All initial students appear and all three statistics are correct | PASS |
 | 2 | Show and hide details on one student card | The average and Honour Roll badge appear when applicable; other cards stay closed; clicking again hides the details | PASS |
-| 3 | Remove a Grade 12 student | Students and Graduating counts both decrease by one | PENDING |
+| 3 | Remove a Grade 12 student | Students and Graduating counts both decrease by one | PASS |
 | 4 | Search for a last name in uppercase, then clear the search | Only matching students appear; clearing the search restores the full list | PASS |
-| 5 | Search for "zzz" | The empty-list message appears, but the three statistics remain unchanged | PENDING |
-| 6 | Leave the first name empty and click Add student | No student is added | PENDING |
-| 7 | Add a student using all four inputs | The student appears, statistics update, names reset to empty, grade resets to 9 and average resets to 70 | PENDING |
+| 5 | Search for "zzz" | The empty-list message appears, but the three statistics remain unchanged | PASS |
+| 6 | Leave the first name empty and click Add student | No student is added | PASS |
+| 7 | Add a student using all four inputs | The student appears, statistics update, names reset to empty, grade resets to 9 and average resets to 70 | PASS |
 | 8 | Click Clear all | No students remain and all three statistics become 0 | PASS |
 | 9 | Test the page at phone width | Student cards stack in one column without horizontal scrolling | PASS |
 | 10 | Click each navbar link | Each link jumps to the correct page section | PASS |
