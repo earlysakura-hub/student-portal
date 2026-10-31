@@ -1,6 +1,8 @@
 // Displays one student. Can expand to show average + Honor Roll
 // badge, and can remove the student from the list
 
+"use client";
+
 import { useState } from "react";
 import type { Student } from "@/data/students";
 
