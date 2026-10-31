@@ -10,7 +10,7 @@ import StudentCard from "@/components/StudentCard";
 
 interface StudentListProps {
   students: Student[];
-  onRemove: (id: string) => void;
+  onRemove: (id: number) => void;
 }
 
 const StudentList = ({ students, onRemove }: StudentListProps) => {
