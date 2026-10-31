@@ -66,22 +66,24 @@ https://github.com/earlysakura-hub/student-portal
 | ESLint | PASS |
 | Vercel deployment | PASS |
 
+
 ## Functional Testing
 
-The results below include local tests.
+The following tests are based on the assignment checklist.
 
-| # | Test Case | Result |
-|---|---|---|
-| 1 | Display eight initial students | PASS |
-| 2 | Display correct Honour Roll count | PASS |
-| 3 | Display correct graduating count | PASS |
-| 4 | Show and hide student details | PASS |
-| 5 | Search for an existing student | PASS |
-| 6 | Add a valid student | PASS |
-| 7 | Remove a student | PASS |
-| 8 | Reject invalid student input | PASS |
-| 9 | Clear all students | PASS |
-| 10 | Test navigation and responsive layout | PASS |
+| # | Test Case | Expected Result | Result |
+|---|---|---|---|
+| 1 | Open the app | All initial students appear and all three statistics are correct | PASS |
+| 2 | Show and hide details on one student card | The average and Honour Roll badge appear when applicable; other cards stay closed; clicking again hides the details | PASS |
+| 3 | Remove a Grade 12 student | Students and Graduating counts both decrease by one | PENDING |
+| 4 | Search for a last name in uppercase, then clear the search | Only matching students appear; clearing the search restores the full list | PASS |
+| 5 | Search for "zzz" | The empty-list message appears, but the three statistics remain unchanged | PENDING |
+| 6 | Leave the first name empty and click Add student | No student is added | PENDING |
+| 7 | Add a student using all four inputs | The student appears, statistics update, names reset to empty, grade resets to 9 and average resets to 70 | PENDING |
+| 8 | Click Clear all | No students remain and all three statistics become 0 | PASS |
+| 9 | Test the page at phone width | Student cards stack in one column without horizontal scrolling | PASS |
+| 10 | Click each navbar link | Each link jumps to the correct page section | PASS |
+
 
 ## Notes
 
