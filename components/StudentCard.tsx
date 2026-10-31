@@ -8,7 +8,7 @@ import type { Student } from "@/data/students";
 
 interface StudentCardProps {
   student: Student;
-  onRemove: (id: string) => void;
+  onRemove: (id: number) => void;
 }
 
 const StudentCard = ({ student, onRemove }: StudentCardProps) => {
