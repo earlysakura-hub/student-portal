@@ -80,9 +80,9 @@ Tests marked PENDING must be completed before submission.
 | 5 | Search for an existing student | PASS |
 | 6 | Add a valid student | PASS |
 | 7 | Remove a student | PASS |
-| 8 | Reject invalid student input | PENDING |
-| 9 | Clear all students | PENDING |
-| 10 | Test navigation and responsive layout | PENDING |
+| 8 | Reject invalid student input | PASS |
+| 9 | Clear all students | PASS |
+| 10 | Test navigation and responsive layout | PASS |
 
 ## Notes
 
